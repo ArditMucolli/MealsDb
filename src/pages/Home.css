@@ -1,0 +1,14 @@
+.letters {
+  gap: 20px;
+  font-size: 18px;
+}
+
+.letters a {
+  color: #000;
+  text-decoration: none;
+}
+
+.letters a:hover {
+  transition: 330ms ease-in-out;
+  color: rgb(202, 166, 5);
+}
