@@ -47,7 +47,7 @@ export default function Home() {
           <h3 className="text-center">Browse By Name</h3>
           <div className="letters d-flex d-flex flex-wrap justify-content-center">
             {letters.map(letter => (
-              <Link to={`/meals/search/${letter}`}>{`${letter}`}</Link>
+              <Link to={`/meals/${letter}`}>{letter}</Link>
             ))}
           </div>
         </div>
