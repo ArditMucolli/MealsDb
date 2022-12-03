@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Meals from "./pages/Meals";
-import Meal from "./pages/Meal";
-import About from "./pages/About";
+import Home from "./pages/Home/Home";
+import Meals from "./pages/Meals/Meals";
+import Meal from "./pages/Meal/Meal";
+import About from "./pages/About/About";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import MealsForSpecificLetter from "./pages/MealsForSpecificLetter";

@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import "./Meals.css";
 import { useParams, Link } from "react-router-dom";
 
 export default function MealsForSpecificLetter() {
