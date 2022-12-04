@@ -42,6 +42,11 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <div className="container text-center">
+        <Link to={`/meals`} className="btn btn-dark p-3">
+          Search by Name
+        </Link>
+      </div>
       <section className="my-5">
         <div className="container">
           <h3 className="text-center">Browse By Name</h3>
