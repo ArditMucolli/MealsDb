@@ -6,7 +6,11 @@ export default function Nav() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
       <div className="container">
         <a href="/">
-          <img className="navbar-brand" src="./logo-small.png"></img>
+          <img
+            className="navbar-brand"
+            src="./assets/header/logo-small.png"
+            alt="TheMealDB"
+          />
         </a>
         <button
           className="navbar-toggler"
